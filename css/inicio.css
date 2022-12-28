@@ -2,3 +2,16 @@
     background-color: #222;
     color: #e6e6e6;
 }
+
+.titulo {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: 2px;
+    /*border-style: solid;
+    border-color: red;*/
+}
+
+.subtitulo {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
