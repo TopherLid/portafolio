@@ -9,110 +9,128 @@
     <title>Portafolio Christopher</title>
     <script src="./js/darkmode.js"></script>
     <link rel="stylesheet" href="./css/inicio.css">
-    
+    <script src="https://kit.fontawesome.com/178860d74b.js" crossorigin="anonymous"></script>
 </head>
 <header>
     <nav class="navbar navbar-dark bg-primary navbar-expand-lg">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Portafolio</a>
+            <a class="navbar-brand" href="#"><i class="fa-solid fa-briefcase"></i> Portafolio Christopher</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house-chimney"></i> Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Github</a>
+                        <a class="nav-link" target="_blank" href="https://github.com/TopherLid"><i class="fa-brands fa-github"></i> Github</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Curriculum
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-file"></i> CV Español
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Curriculum Español</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-file-pdf"></i> PDF</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Curriculum Inglés</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-file-word"></i> Docx</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item">
-                        <button class="btn btn-outline-dark" id="darkmode_button" onclick="ToggleDarkMode()">Darkmode</button>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-file"></i> CV English
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-file-pdf"></i> PDF</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-file-word"></i> Docx</a></li>
+                        </ul>
                     </li>
                 </ul>
-            </div>
-        </div>
-
-
-    </nav>
-</header>
-<body>
-    <div class="container">
-    
-            <div class="row titulo">
-                <center>
-                    <h1>Hola!<br>Christopher Andrés Paredes López</h1>
-                </center>
-                <div class="subtitulo">
-                    <center>
-                        <h2>Ingeniero en Informática Empresarial</h2>
-                    </center>
+                <div>
+                    <button class="btn btn-primary" id="darkmode_button" onclick="ToggleDarkMode()"><i class="fa-solid fa-circle-half-stroke"></i> Darkmode</button>
                 </div>
             </div>
-            <div class="row">
-            </div>
-
-        <div class="row">
-            <center><h2>Perfil</h2></center>
-            <div class="col">
-                <p>Parrafo Dummy #1</p>
-            </div>
-            <div class="col">
-                <p>Sigue en contacto! estoy actualizando día a día el sitio!</p>
+        </div>
+    </nav>
+</header>
+<body class="dark">
+    <div class="container tarjetero">
+        <div class="row titulo">
+            <center>
+                <h1>Hola!<br>Christopher Andrés Paredes López</h1>
+            </center>
+            <div class="subtitulo">
+                <center>
+                    <h2>Ingeniero en Informática Empresarial</h2>
+                </center>   
             </div>
         </div>
         <div class="row">
-            <center><h2>Educación</h2></center>
-            <div class="col">
-                <p>Parrafo Dummy #2</p>
+            <div class="col-4">
+                <div class="container">
+                    <div class="row">
+                        <center><h2>Perfil</h2></center>
+                        <div class="col">
+                            <p>Parrafo Dummy #1</p>
+                        </div>
+                        <div class="col-sm-12 col-6">
+                            <p>Sigue en contacto! estoy actualizando día a día el sitio!</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <center><h2>Educación</h2></center>
+                        <div class="col">
+                            <p>Parrafo Dummy #2</p>
+                        </div>
+                        <div class="col">
+                            <p>Sigue en contacto! estoy actualizando día a día el sitio!</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col">
-                <p>Sigue en contacto! estoy actualizando día a día el sitio!</p>
+            <div class="col-8">
+                <div class="container">
+                    <div class="row">
+                        <center><h2>Experiencia</h2></center>
+                        <div class="col">
+                            <p>Parrafo Dummy #3</p>
+                        </div>
+                        <div class="col">
+                            <p>Sigue en contacto! estoy actualizando día a día el sitio!</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <center><h2>Conocimientos</h2></center>
+                        <div class="col">
+                            <p>Parrafo Dummy #4</p>
+                        </div>
+                        <div class="col">
+                            <p>Sigue en contacto! estoy actualizando día a día el sitio!</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <center><h2>Redes</h2></center>
+                        <div class="col">
+                            <p>Parrafo Dummy #5</p>
+                        </div>
+                        <div class="col">
+                            <p>Sigue en contacto! estoy actualizando día a día el sitio!</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <center><h2>Experiencia</h2></center>
-            <div class="col">
-                <p>Parrafo Dummy #3</p>
-            </div>
-            <div class="col">
-                <p>Sigue en contacto! estoy actualizando día a día el sitio!</p>
-            </div>
-        </div>
-        <div class="row">
-            <center><h2>Conocimientos</h2></center>
-            <div class="col">
-                <p>Parrafo Dummy #4</p>
-            </div>
-            <div class="col">
-                <p>Sigue en contacto! estoy actualizando día a día el sitio!</p>
-            </div>
-        </div>
-        <div class="row">
-            <center><h2>Redes</h2></center>
-            <div class="col">
-                <p>Parrafo Dummy #5</p>
-            </div>
-            <div class="col">
-                <p>Sigue en contacto! estoy actualizando día a día el sitio!</p>
-            </div>
-        </div>
-          <br>
     </div>
 </body>
+<div style="margin-top: 250px; margin-bottom: 250px;"></div>
 <footer>
     <div class="container">
         <div class="row">
+            <div style="margin-top: 25px;">
+                <center><h6>Hecho con &#128151; en HTML, CSS, JS, BootStrap</h6></center>
+            </div>
+            
             <div class="col">Columna Dummy #1</div>
             <div class="col">Columna Dummy #2</div>
             <div class="col">Columna Dummy #3</div>
@@ -121,3 +139,4 @@
     </div>
 </footer>
 </html>
+
